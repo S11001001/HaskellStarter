@@ -254,11 +254,15 @@ A quick note about modules: Cabal must know about all of your modules in the lib
 
 With some code in place and the library configured, it's time to play with it. Try this out:
 
-    $ cabal repl
+```sh
+$ cabal repl
+```
 
 This will bring you into ghci with all of your modules preloaded. Let's call a function:
 
-    *HaskellStarter.CommitPrinter> printCommitsFor "joshcough" "HaskellStarter"
+```haskell
+*HaskellStarter.CommitPrinter> printCommitsFor "joshcough" "HaskellStarter"
+```
 
 Of course, this project has way too many bogus commits that just say "readme update" to actually show the output here, but it does work. Trust me.
 
